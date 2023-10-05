@@ -1,0 +1,41 @@
+openapi: '3.0.2'
+info:
+  title: なんか作る✌️
+  description: なんか作るためのやつ✌️
+
+
+
+  #TODO termsOfService:  #利用規約
+  contact:
+    name: API Support #サポートページ
+    url: https://www.example.com/ #サポートURL
+    email: sns.to3.s4u@gmail.com #サポート用メールアドレス
+  license:
+    name: Apache 2.0 #このAPIのライセンス
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  version: '0.0'
+
+servers:
+- url: "http://localhost:8080" #バージョン情報をここに入れるべきです。
+  description: "ローカル環境"
+#- url: "本番環境"
+  #description: "本番環境"
+
+
+paths:
+  /:
+    get:
+      summary: "message、テスト用"
+      tags: []
+      responses:
+        200:
+          description: "成功"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: message
+                    example: "Hellos"
