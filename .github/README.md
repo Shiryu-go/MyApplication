@@ -1,1 +1,13 @@
-説明の追加。
+プロジェクトアーキテクチャ
+- Cloud Service
+  - 未定
+- Backend
+  - Java
+  - SpringBoot
+- Frontend
+  - Node.js
+  - React
+  - Next.js
+- DataBase
+  - PostgreSQL
+- 
