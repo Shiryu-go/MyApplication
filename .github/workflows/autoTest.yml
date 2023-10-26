@@ -28,4 +28,4 @@ jobs:
       - name: Execute Gradle build
         run:
           cd demo;
-          ./gradlew build;
+          ./gradlew test;
