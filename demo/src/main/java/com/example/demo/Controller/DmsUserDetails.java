@@ -1,17 +1,13 @@
 package com.example.demo.Controller;
 
 
-public class DmsUserDetails {
+public abstract class DmsUserDetails {
     String UserId;
-    public String getFirstName() {
-    }
+    public abstract String getFirstName();
 
-    public String getLastName() {
-    }
+    public abstract  String getLastName();
 
-    public Object getUserId() {
-    }
+    public abstract Object getUserId();
 
-    public Object getUsername() {
-    }
+    public abstract Object getUsername();
 }
